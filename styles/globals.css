@@ -1,0 +1,83 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color:#0b0e40 !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button{
+  color:white !important;
+  background-color:#eeaebc !important;
+  /* padding-left: 40px !important; */
+  margin-top: 10px !important;
+  margin-left: 20px !important;
+  height:50px;
+  /* padding-top: 10px !important; */
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 45px;
+  /* ----- */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: auto;
+  background: rgb(238,174,188);
+  background: radial-gradient(circle, rgba(238,174,188,1) 0%, rgba(55,39,98,1) 100%);
+  padding-left: 1.5rem;
+}
+
+.Header{
+  background: rgb(238,174,188) !important;
+  background: radial-gradient(circle, rgba(238,174,188,1) 0%, rgba(55,39,98,1) 100%) !important;
+}
+
+.newdiv{
+  padding: 20px;
+  /* margin: 20px; */
+  margin-top: 50px;
+  background-color: whitesmoke;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.newdiv1{
+  padding: 20px;
+  /* margin: 20px; */
+  margin-top: 50px;
+  background-color: whitesmoke;
+  width: 650px;
+  height: 280px;
+  /* text-align: center; */
+  border-radius: 10px;
+}
+
+.newdiv3{
+  padding: 20px;
+  /* margin: 20px; */
+  margin-top: 50px;
+  background-color: whitesmoke;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;
+}
